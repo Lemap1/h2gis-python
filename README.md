@@ -6,5 +6,4 @@ To insall run :
 ```
  python setup.py bdist_wheel
  pip install dist/h2gis-0.0.1-py3-none-any.whl  --force-reinstall
-
 ```

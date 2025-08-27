@@ -10,6 +10,8 @@ h2gis/h2gis.py
 h2gis.egg-info/PKG-INFO
 h2gis.egg-info/SOURCES.txt
 h2gis.egg-info/dependency_links.txt
+h2gis.egg-info/requires.txt
 h2gis.egg-info/top_level.txt
+h2gis/lib/h2gis.dll
 h2gis/lib/h2gis.so
 test/test_h2gis.py

@@ -25,7 +25,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='h2gis',
-    version='0.0.2',
+    version='0.0.3',
     description='A Python library to use an H2GIS database through a native GraalVM bridge.',
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
@@ -40,9 +40,10 @@ setup(
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
-        "Operating System :: OS Independent",
+        "Operating System :: OS Independent, contains the libs for linux and windows in the package.",
     ],
     python_requires=">=3.7",
+    install_requires=['shapely'],
     setup_requires=['pytest-runner', 'shapely'],
     tests_require=['pytest==4.4.1']
 )
